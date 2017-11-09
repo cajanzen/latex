@@ -1,5 +1,6 @@
 FROM debian:jessie
 MAINTAINER Carl Janzen <carl.janzen@gmail.com>
+
 RUN apt-get update -q
 RUN apt-get update -q \
   && apt-get install -qy \
